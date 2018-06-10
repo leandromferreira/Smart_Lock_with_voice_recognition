@@ -130,7 +130,7 @@ def fill_features_columns(dataframe):
 if __name__ == "__main__":
     
     engine = bd_engine(driver='mysql', user='root', passwrd='sound123',
-                       host='165.227.5.227', port=3306,db='soundKey')
+                       host='localhost', port=3306,db='soundKey')
     
     #connection = engine.connect()
     
