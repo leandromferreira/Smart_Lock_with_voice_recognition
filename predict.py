@@ -6,7 +6,7 @@ path_audio_files='./Audios/'
 if __name__ == "__main__":
      
     engine = train.bd_engine(driver='mysql', user='root', passwrd='sound123',
-                       host='165.227.5.227', port=3306,db='soundKey')
+                       host='localhost', port=3306,db='soundKey')
     
     #connection = engine.connect()
     
